@@ -7,7 +7,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function HeaderBar() {
   return (
-    <header className='flex justify-evenly items-center bg-black text-white h-20'>
+    <header className='flex justify-around items-center bg-black text-white py-8'>
         <nav className='flex gap-4'>
             <a
                 className='' 
@@ -22,7 +22,7 @@ function HeaderBar() {
                 href="Projects"
             >Projects</a>
         </nav>
-        <h2 className='text-3xl font-bold uppercase text-center '>Portafolio</h2>
+        
         <div className='flex gap-4'>
             <a href="https://github.com/WeroKikez" target='_blank'>
                 <FontAwesomeIcon icon={faSquareGithub} size='2xl'/>
