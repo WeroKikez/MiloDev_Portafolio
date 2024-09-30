@@ -1,4 +1,5 @@
 import TechTag from "./TechTag"
+import ProfilePhoto from "../assets/ProfilePhoto_Squeare.webp"
 
 function AboutCard() {
   return (
@@ -9,7 +10,7 @@ function AboutCard() {
         
         <div className='bg-black text-white py-10 px-5 lg:pl-5 lg:pr-10 md:grid md:grid-cols-2 rounded-lg'>
             <div className='flex flex-col border-b-2 mb-10 md:mb-0 border-gray-800 md:border-none'>
-                <img className='rounded-full w-3/5 mx-auto' src="../public/ProfilePhoto_Squeare.jpg" alt="Profile Photo" />
+                <img className='rounded-full w-3/5 mx-auto' src={ProfilePhoto} alt="Profile Photo" />
                 <h3 className='text-center text-4xl font-bold mt-5'>Emiliano Enriquez</h3>
 
                 <div className="mt-5 flex flex-col gap-1 py-5 px-5 mx-auto bg-zinc-900 rounded-lg mb-10 md:mb-0">
