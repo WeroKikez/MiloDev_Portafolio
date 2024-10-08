@@ -4,12 +4,10 @@ type ProjectCardProps = {
     project: {
         id: number,
         title: string,
-        tech: [
-            {
-                name: string,
-                color: string
-            }
-        ]
+        tech: {
+            name: string,
+            color: string
+        }[]
     }
 }
 

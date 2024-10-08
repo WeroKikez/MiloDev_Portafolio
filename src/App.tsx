@@ -5,6 +5,8 @@ import { projects } from './data/index'
 import ProjectCard from './components/ProjectCard'
 
 function App() {
+  console.log(projects)
+
   return (
     <>
     <HeaderBar />
