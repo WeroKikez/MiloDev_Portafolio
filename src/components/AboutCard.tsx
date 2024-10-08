@@ -4,7 +4,7 @@ import ProfilePhoto from "../assets/ProfilePhoto_Squeare.webp"
 function AboutCard() {
   return (
     <div className="flex text-center items-center">
-        <div className="w-[90%] mx-auto mt-28 text-center md:w-2/3 lg:w-2/3 xl:w-1/2">
+        <div className="w-[90%] mx-auto mt-16 md:mt-28 text-center md:w-2/3 lg:w-2/3 xl:w-1/2">
         
         <h2 className='text-center text-5xl font-bold mb-10'>About Me</h2>
         
